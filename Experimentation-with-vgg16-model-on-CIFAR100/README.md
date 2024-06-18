@@ -92,3 +92,19 @@
   - An average Macro and Micro AUC was found to be 0.87.
   - It took around 5 hours and 41 minutes to finish the training.
   - This experiment achieved the highest scores and performance among the four experiments.
+
+
+
+### Key observations:
+- **Training Duration:**
+  - Experiment 01A took the longest time (around 14 hours) to complete training.
+  - Other experiments completed training much faster.
+
+- **Accuracy and AUC:**
+  - Experiment 01B (with pretrained weights) and Experiment 03 (freezing dense layers) achieved the highest accuracy (around 75%).
+  - Experiment 03 recorded the highest AUC (0.87), slightly outperforming Experiment 01B.
+  - Experiment 02 showed potential for higher accuracy if trained for more epochs, with an AUC of 0.82.
+
+- **Model Performance:**
+  - Experiment 03 demonstrated the best performance in terms of AUC and high accuracy, making it the top-performing model among all experiments.
+  - Experiment 01B achieved the same accuracy as Experiment 03 but with a slightly lower AUC.
