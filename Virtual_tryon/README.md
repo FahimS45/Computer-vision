@@ -14,7 +14,7 @@ It powers the frontend (built with Lovable) by providing an API to detect clothi
 
 ---
 ## 📂 Project Structure
-
+---
 
 backend/
 ├── virtual\_tryon.py      # Core class with detection, segmentation, and try-on logic
@@ -23,7 +23,7 @@ backend/
 ├── uploads/              # Temporary uploaded images
 ├── outputs/              # Generated output images
 └── .env                  # Environment variables (API keys)
-
+---
 
 
 ## ⚙️ Setup Instructions
@@ -166,6 +166,7 @@ MIT License © 2025 \[Your Name]
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
 
 ```
+
 
 
 
