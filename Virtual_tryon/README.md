@@ -166,10 +166,3 @@ MIT License © 2025 \[Your Name]
 * [Meta’s SAM](https://segment-anything.com/) – Image segmentation
 * [Segmind](https://segmind.com/) – Inpainting
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
-
-```
-
-
-
-
-
