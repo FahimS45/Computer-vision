@@ -41,7 +41,7 @@ backend/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/virtual-tryon-backend.git
+git clone https://github.com/your-username/Virtual_tryon.git
 cd virtual-tryon-backend
 ````
 
@@ -177,3 +177,4 @@ MIT License © 2025 \[Your Name]
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
 
 ```
+
