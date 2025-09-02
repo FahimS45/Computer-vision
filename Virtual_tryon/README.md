@@ -1,11 +1,4 @@
-Perfect — thanks for sharing the full backend code 🙌
-Since you already have the **frontend** repo from Lovable, I’ll generate a professional `README.md` tailored for your **backend (FastAPI + Virtual Try-On AI)**.
-
-Here’s a **clean, GitHub-ready README.md** that explains everything clearly:
-
----
-
-```markdown
+```
 # 👗 Virtual Try-On AI Backend
 
 This is the **backend service** for the Virtual Try-On AI project.  
@@ -177,4 +170,5 @@ MIT License © 2025 \[Your Name]
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
 
 ```
+
 
