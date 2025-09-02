@@ -1,4 +1,3 @@
-```
 # 👗 Virtual Try-On AI Backend
 
 This is the **backend service** for the Virtual Try-On AI project.  
@@ -13,10 +12,9 @@ It powers the frontend (built with Lovable) by providing an API to detect clothi
 - Expose APIs via [FastAPI](https://fastapi.tiangolo.com/).
 - Supports **GPU acceleration** if available.
 
----
 
 ## 📂 Project Structure
-```
+
 
 backend/
 ├── virtual\_tryon.py      # Core class with detection, segmentation, and try-on logic
@@ -26,9 +24,7 @@ backend/
 ├── outputs/              # Generated output images
 └── .env                  # Environment variables (API keys)
 
-````
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -170,5 +166,6 @@ MIT License © 2025 \[Your Name]
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
 
 ```
+
 
 
