@@ -12,7 +12,7 @@ It powers the frontend (built with Lovable) by providing an API to detect clothi
 - Expose APIs via [FastAPI](https://fastapi.tiangolo.com/).
 - Supports **GPU acceleration** if available.
 
-
+---
 ## 📂 Project Structure
 
 
