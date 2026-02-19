@@ -5,9 +5,17 @@ It powers the frontend (built with Lovable) by providing an API to detect clothi
 
 ---
 
+## 🎬 Demo
+
+[![Virtual Try-On Demo](assets/Screenshot%202026-02-20%20011652.png)](https://drive.google.com/file/d/11MjoyofuyiOcPxfS4ni1WpwiCbEWY9U_/view?usp=sharing)
+
+> 👆 Click the thumbnail above to watch the demo video.
+
+---
+
 ## 🚀 Features
-- Upload a person’s photo and **detect clothing items** (upper/lower body).
-- **Segment clothing regions** using [Meta’s SAM](https://segment-anything.com/).
+- Upload a person's photo and **detect clothing items** (upper/lower body).
+- **Segment clothing regions** using [Meta's SAM](https://segment-anything.com/).
 - Perform **virtual try-on** using [Segmind Inpainting API](https://segmind.com/).
 - Expose APIs via [FastAPI](https://fastapi.tiangolo.com/).
 - Supports **GPU acceleration** if available.
@@ -18,22 +26,23 @@ It powers the frontend (built with Lovable) by providing an API to detect clothi
 ```
 
 backend/
-├── virtual\_tryon.py      # Core class with detection, segmentation, and try-on logic
+├── virtual_try_on.py      # Core class with detection, segmentation, and try-on logic
 ├── main.py               # FastAPI app exposing API endpoints
 ├── requirements.txt      # Python dependencies
 ├── uploads/              # Temporary uploaded images
 ├── outputs/              # Generated output images
-└── .env                  # Environment variables (API keys)
+└── assets                # Thumbnail
 
 ````
 
+---
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/Virtual_tryon.git
-cd virtual-tryon-backend
+git clone https://github.com/FahimS45/Computer-vision.git
+cd Virtual_tryon
 ````
 
 ### 2️⃣ Create a virtual environment
@@ -150,7 +159,6 @@ See `requirements.txt` for full details.
 ## 🌐 Frontend
 
 The **frontend** for this project was built using [Lovable](https://lovable.dev) and connects directly with this backend API.
-🔗 [Frontend Repository](https://github.com/your-username/virtual-tryon-frontend) (replace with your actual repo link)
 
 ---
 
@@ -163,6 +171,6 @@ MIT License © 2025 \[Your Name]
 ## 🙌 Acknowledgements
 
 * [Roboflow](https://roboflow.com/) – Clothing detection
-* [Meta’s SAM](https://segment-anything.com/) – Image segmentation
+* [Meta's SAM](https://segment-anything.com/) – Image segmentation
 * [Segmind](https://segmind.com/) – Inpainting
 * [FastAPI](https://fastapi.tiangolo.com/) – API framework
